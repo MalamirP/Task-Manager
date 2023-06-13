@@ -139,7 +139,7 @@ async function solve(e) {
         clientInfoH3.textContent = `Client information: ${clientNameValue}, ${clientPhoneValue}`;
 
         const problemDescriptionH4 = createElement(`h4`);
-        problemDescriptionH4.textContent = `Description of the problem: ${problemDescriptionValue}`;
+        problemDescriptionH4.textContent = `Description of the task: ${problemDescriptionValue}`;
 
         const startRepaitBtn = createElement(`button`);
         startRepaitBtn.classList.add(`start-btn`);
