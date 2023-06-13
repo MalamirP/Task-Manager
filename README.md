@@ -38,4 +38,4 @@ getAllFinishedTasks: Retrieves all finished tasks from the Firebase database.
 changeStatus: Updates the status of a task in the Firebase database.
 deleteAllTasks: Deletes all tasks from the Firebase database.
 getTask: Retrieves a specific task from the Firebase database.
-Please ensure that you have the appropriate Firebase configuration and permissions set up to access and modify the database.
+
