@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style/css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Task Manager</h1>
+      <section id="main-container">
+        <div id="left">
+          <div id="head">
+            <h1>Easy! Convenient! Quick!</h1>
+            <p>Start your journey with task right now</p>
+          </div>
+        </div>
+
+        <div id="right">
+          <h1>Task form</h1>
+          <form action="#">
+            <label for="type-product">Task title: </label>
+            <select id="type-product" name="type-product">
+              <option value="Start working at Appfire">
+                Start working at Appfire
+              </option>
+              <option value="Improve myself">Improve myself</option>
+              <option value="Learn something new everyday">
+                Learn something new everyday
+              </option>
+            </select>
+
+            <label for="description">Description of the task:</label>
+            <textarea
+              id="description"
+              cols="20"
+              placeholder="I have only one year"
+            ></textarea>
+
+            <label for="client-name">Client name:</label>
+            <input
+              type="text"
+              id="client-name"
+              name="client-name"
+              placeholder="Petar Petrson"
+            />
+
+            <label for="client-phone">Client phone:</label>
+            <input
+              type="text"
+              id="client-phone"
+              name="client-phone"
+              placeholder="+359..."
+            />
+
+            <button type="submit">Send form</button>
+          </form>
+        </div>
+      </section>
+
+      <div id="wrapper">
+        <section id="received-orders">
+          <h2>Received tasks:</h2>
+          <img src="./style/img/slider_2.jpg" />
+        </section>
+
+        <section id="completed-orders">
+          <h2>Completed tasks:</h2>
+          <img src="./style/img/completed-order.png" />
+          <button class="clear-btn">Clear</button>
+        </section>
+
+        <section id="unfinished-orders">
+          <h2>Unfinished tasks:</h2>
+          <img src="./style/img/unfinished-order.avif" />
+          <button class="clear-btn" id="loadBtn">Load</button>
+        </section>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
