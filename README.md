@@ -12,12 +12,6 @@ Client Information: The app allows users to store and display client information
 Task Completion: Users can mark tasks as completed when the repair or work associated with the task is finished.
 Data Persistence: The app stores tasks in a Firebase database, ensuring data persistence and accessibility.
 
-Installation:
-
-Clone the repository: git clone https://github.com/MalamirP/Task-Manager
-Open the project folder: cd Task-Manager
-Open the index.html file in a web browser or deploy the app on a web server.
-Ensure that you have an active internet connection for the Firebase database access.
 
 Usage:
 
